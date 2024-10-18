@@ -1,4 +1,4 @@
-package gr.aueb.cf.teacherapp.controller;
+package gr.aueb.cf.springteacherapp.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

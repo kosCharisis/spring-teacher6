@@ -211,3 +211,117 @@ Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E:
 	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338)
 	at org.thymeleaf.spring6.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
 	... 105 common frames omitted
+2024-10-18 13:35:13 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-18 13:35:13 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 12508 (C:\Users\иуес\IdeaProjects\spring-teacher6\build\classes\java\main started by иуес in C:\Users\иуес\IdeaProjects\spring-teacher6)
+2024-10-18 13:35:13 INFO  - The following 1 profile is active: "test"
+2024-10-18 13:35:18 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-18 13:35:18 INFO  - Finished Spring Data repository scanning in 480 ms. Found 3 JPA repository interfaces.
+2024-10-18 13:35:22 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-18 13:35:23 INFO  - Root WebApplicationContext: initialization completed in 9805 ms
+2024-10-18 13:35:24 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-18 13:35:24 INFO  - HHH000026: Second-level cache disabled
+2024-10-18 13:35:25 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-18 13:35:26 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-18 13:35:29 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-18 13:35:29 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-18 13:35:30 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-18 13:35:30 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-18 13:35:30 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-18 13:35:30 INFO  - Adding welcome page template: index
+2024-10-18 13:35:32 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-18 13:35:32 INFO  - Started TeacherApplication in 20.879 seconds (process running for 22.432)
+2024-10-18 13:36:09 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-18 13:36:09 INFO  - Completed initialization in 3 ms
+2024-10-18 13:36:23 WARN  - [THYMELEAF][http-nio-8080-exec-10][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:36:23 WARN  - [THYMELEAF][http-nio-8080-exec-10][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 22, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:39:52 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-18 13:39:52 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 4992 (C:\Users\иуес\IdeaProjects\spring-teacher6\build\classes\java\main started by иуес in C:\Users\иуес\IdeaProjects\spring-teacher6)
+2024-10-18 13:39:52 INFO  - The following 1 profile is active: "test"
+2024-10-18 13:39:54 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-18 13:39:55 INFO  - Finished Spring Data repository scanning in 174 ms. Found 3 JPA repository interfaces.
+2024-10-18 13:39:57 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-18 13:39:58 INFO  - Root WebApplicationContext: initialization completed in 5935 ms
+2024-10-18 13:39:59 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-18 13:39:59 INFO  - HHH000026: Second-level cache disabled
+2024-10-18 13:40:00 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-18 13:40:01 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-18 13:40:05 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-18 13:40:06 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-18 13:40:08 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-18 13:40:08 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-18 13:40:08 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-18 13:40:08 INFO  - Adding welcome page template: index
+2024-10-18 13:40:09 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-18 13:40:09 INFO  - Started TeacherApplication in 19.67 seconds (process running for 22.525)
+2024-10-18 13:42:07 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-18 13:42:07 INFO  - Completed initialization in 15 ms
+2024-10-18 13:42:08 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:42:08 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:45:30 WARN  - [THYMELEAF][http-nio-8080-exec-10][teacher-form] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template teacher-form, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:45:30 WARN  - [THYMELEAF][http-nio-8080-exec-10][teacher-form] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template teacher-form, line 70, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:48:01 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-18 13:48:02 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 14740 (C:\Users\иуес\IdeaProjects\spring-teacher6\build\classes\java\main started by иуес in C:\Users\иуес\IdeaProjects\spring-teacher6)
+2024-10-18 13:48:02 INFO  - The following 1 profile is active: "test"
+2024-10-18 13:48:07 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-18 13:48:07 INFO  - Finished Spring Data repository scanning in 211 ms. Found 3 JPA repository interfaces.
+2024-10-18 13:48:09 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-18 13:48:10 INFO  - Root WebApplicationContext: initialization completed in 7692 ms
+2024-10-18 13:48:10 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-18 13:48:10 INFO  - HHH000026: Second-level cache disabled
+2024-10-18 13:48:11 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-18 13:48:13 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-18 13:48:16 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-18 13:48:16 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-18 13:48:17 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-18 13:48:17 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-18 13:48:17 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-18 13:48:17 INFO  - Adding welcome page template: index
+2024-10-18 13:48:18 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-18 13:48:18 INFO  - Started TeacherApplication in 19.593 seconds (process running for 21.042)
+2024-10-18 13:48:30 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-18 13:48:30 INFO  - Completed initialization in 5 ms
+2024-10-18 13:48:31 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:48:31 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:49:36 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:49:36 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:52:36 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-18 13:52:36 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 10832 (C:\Users\иуес\IdeaProjects\spring-teacher6\build\classes\java\main started by иуес in C:\Users\иуес\IdeaProjects\spring-teacher6)
+2024-10-18 13:52:36 INFO  - The following 1 profile is active: "test"
+2024-10-18 13:52:40 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-18 13:52:40 INFO  - Finished Spring Data repository scanning in 140 ms. Found 3 JPA repository interfaces.
+2024-10-18 13:52:42 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-18 13:52:42 INFO  - Root WebApplicationContext: initialization completed in 5681 ms
+2024-10-18 13:52:43 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-18 13:52:43 INFO  - HHH000026: Second-level cache disabled
+2024-10-18 13:52:44 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-18 13:52:46 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-18 13:52:50 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-18 13:52:50 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-18 13:52:51 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-18 13:52:51 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-18 13:52:51 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-18 13:52:52 INFO  - Adding welcome page template: index
+2024-10-18 13:52:53 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-18 13:52:53 INFO  - Started TeacherApplication in 18.824 seconds (process running for 22.142)
+2024-10-18 13:53:01 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-18 13:53:01 INFO  - Completed initialization in 2 ms
+2024-10-18 13:53:01 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:53:02 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:53:49 WARN  - [THYMELEAF][http-nio-8080-exec-9][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:53:49 WARN  - [THYMELEAF][http-nio-8080-exec-9][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:54:09 WARN  - [THYMELEAF][http-nio-8080-exec-6][teacher-form] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template teacher-form, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:54:09 WARN  - [THYMELEAF][http-nio-8080-exec-6][teacher-form] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template teacher-form, line 70, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:54:25 WARN  - [THYMELEAF][http-nio-8080-exec-6][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:54:25 WARN  - [THYMELEAF][http-nio-8080-exec-6][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:54:32 WARN  - [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:54:32 WARN  - [THYMELEAF][http-nio-8080-exec-2][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:54:43 WARN  - [THYMELEAF][http-nio-8080-exec-1][teacher-form] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template teacher-form, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:54:43 WARN  - [THYMELEAF][http-nio-8080-exec-1][teacher-form] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template teacher-form, line 70, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:55:02 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:55:02 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:55:39 WARN  - [THYMELEAF][http-nio-8080-exec-8][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:55:39 WARN  - [THYMELEAF][http-nio-8080-exec-8][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:55:44 WARN  - [THYMELEAF][http-nio-8080-exec-3][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:55:44 WARN  - [THYMELEAF][http-nio-8080-exec-3][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:55:49 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-18 13:55:49 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 24, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
